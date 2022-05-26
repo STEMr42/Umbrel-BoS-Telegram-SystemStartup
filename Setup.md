@@ -14,7 +14,7 @@ Copy/Paste code below - replace YOURCONNECTIONCODE with your bot code and /path/
 
     [Service] 
     ExecStart=/path/to/bos telegram --connect YOURCONNECTIONCODE
-    User=bos
+    User=umbrel
     Restart=always
     TimeoutSec=120
     RestartSec=30
